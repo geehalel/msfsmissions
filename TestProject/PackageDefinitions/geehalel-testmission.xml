@@ -1,0 +1,31 @@
+<AssetPackage Name="geehalel-testmission" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>MISSION</ContentType>
+		<Title>Test missions package</Title>
+		<Manufacturer/>
+		<Creator>geehalel</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\geehalel-testmission\ContentInfo</AssetDir>
+			<OutputDir>ContentInfo\geehalel-testmission</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="testmission">
+			<Type>Mission</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\testmission\</AssetDir>
+			<OutputDir>Missions/geehalel/BushTrips/testmission\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+

@@ -1,0 +1,8 @@
+<Project Version="2" Name="TestProject" FolderName="Packages">
+	<OutputDirectory>.</OutputDirectory>
+	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
+	<Packages>
+		<Package>PackageDefinitions\geehalel-testmission.xml</Package>
+	</Packages>
+</Project>
+

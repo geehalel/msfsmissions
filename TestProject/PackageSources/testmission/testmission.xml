@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="MissionFile" version="1,0">
+    <Title>Test Mission File</Title>
+    <WorldBase.Flight>
+        
+        <SimMission.DialogAction InstanceId="{52762b1b-4d9b-4d70-9ffe-ac7ba547f976}">
+            <Descr>dialogintro</Descr>
+            <Text>Welcome to this test mission.  You are at La Tuque, runway 19. Take off when you are ready.</Text>
+            <DelaySeconds>1.000</DelaySeconds>
+        </SimMission.DialogAction>
+		<SimMission.DialogAction InstanceId="{0411aff7-902e-4181-842a-d0fe19e5f149}">
+            <Descr>dialogclimb</Descr>
+            <Text>Good, now climb to an altitude of 1800 feet with a speed of at least 80 knots</Text>
+            <DelaySeconds>1.000</DelaySeconds>
+        </SimMission.DialogAction>
+		<SimMission.DialogAction InstanceId="{9dc085a9-2229-4a8c-ab41-2bdec5a97069}">
+            <Descr>dialogpattern</Descr>
+            <Text>Great, now complete a left or right traffic pattern and land back at La Tuque. Try to land on the runway number 19</Text>
+            <DelaySeconds>1.000</DelaySeconds>
+        </SimMission.DialogAction>
+		<SimMission.DialogAction InstanceId="{693de875-465e-4450-99b2-766bf07bf4d3}">
+            <Descr>dialogstop</Descr>
+            <Text>Nicely done, now bring the aircraft to a complete stop</Text>
+            <DelaySeconds>1.000</DelaySeconds>
+        </SimMission.DialogAction>
+		<SimMission.DialogAction InstanceId="{27f1ba39-ec98-4c44-b0a3-715bdeac2aa0}">
+            <Descr>dialogend</Descr>
+            <Text>Good job, you have completed the mission</Text>
+            <DelaySeconds>1.000</DelaySeconds>
+        </SimMission.DialogAction>
+		
+		<SimMission.TimerTrigger InstanceId="{edc6f3f4-f6cf-47ba-a1ce-84951d95a466}">
+            <Descr>timerintro</Descr>
+            <StartTime>2.000</StartTime>
+            <Actions>
+                <ObjectReference InstanceId="{52762b1b-4d9b-4d70-9ffe-ac7ba547f976}" id="dialogintro"/>
+            </Actions>
+        </SimMission.TimerTrigger>
+		
+		<SimMission.PropertyTrigger InstanceId="{7174113f-dc8a-46a9-95ae-cac7a8e1d20d}">
+            <Descr>trigger_takeoff</Descr>
+            <Actions>
+                <ObjectReference id="Action_dialogclimb" InstanceId="{0411aff7-902e-4181-842a-d0fe19e5f149}">
+                </ObjectReference>
+            </Actions>
+            <Condition>
+                <GreaterThan>
+                    <LHS>
+                        <Property>
+                            <Name>Simvar.AltitudeAGL</Name>
+                            <Units>feet</Units>
+                            <PropertySource>User</PropertySource>
+                        </Property>
+                    </LHS>
+                    <RHS>
+                        <Constant>
+                            <Double>50.000</Double>
+                        </Constant>
+                    </RHS>
+                </GreaterThan>
+			</Condition>
+		</SimMission.PropertyTrigger>
+		
+		<SimMission.PropertyTrigger InstanceId="{f6246dc9-bb65-4f73-902f-d737b030e127}">
+            <Descr>trigger_alt_speed</Descr>
+            <Actions>
+                <ObjectReference id="Action_dialogpattern" InstanceId="{9dc085a9-2229-4a8c-ab41-2bdec5a97069}">
+                </ObjectReference>
+				<ObjectReference id="Action_TriggerRunway19" InstanceId="{bac3e453-cfd9-4320-b455-6680525aa419}">
+                </ObjectReference>
+            </Actions>
+            <Condition>
+                <And>
+                    <GreaterThan>
+                        <LHS>
+                            <Property>
+                                <Name>Simvar.AltitudeAMSL</Name>
+                                <Units>feet</Units>
+                                <PropertySource>User</PropertySource>
+                            </Property>
+                        </LHS>
+                        <RHS>
+                            <Constant>
+                                <Double>1800.000</Double>
+                            </Constant>
+                        </RHS>
+                    </GreaterThan>
+                    <GreaterThan>
+                        <LHS>
+                            <Property>
+                                <Name>Simvar.IndicatedAirSpeed</Name>
+                                <Units>knots</Units>
+                                <PropertySource>User</PropertySource>
+                            </Property>
+                        </LHS>
+                        <RHS>
+                            <Constant>
+                                <Double>80.000</Double>
+                            </Constant>
+                        </RHS>
+                    </GreaterThan>
+                </And>
+            </Condition>
+        </SimMission.PropertyTrigger>
+		
+		<SimMission.RectangleArea InstanceId="{08ef8f6e-78c5-49db-a819-1becfeaff0d8}">
+            <Descr>RectangleArea_Runway19</Descr>
+            <Orientation>0.000,0.000,175.65527269161526647</Orientation>
+            <Length>100.000</Length>
+            <Width>100.000</Width>
+            <Height>20.000</Height>
+            <AttachedWorldPosition>
+                <WorldPosition>N47° 24' 52.31",W72° 47' 22.56",+000000.00</WorldPosition>
+                <AltitudeIsAGL>True</AltitudeIsAGL>
+            </AttachedWorldPosition>
+        </SimMission.RectangleArea>
+		
+		<SimMission.ProximityTrigger InstanceId="{1d66d94a-03ae-4134-ac6a-64575ba3c7da}">
+            <Descr>ProximityTrigger_Runway19</Descr>
+			<Activated>False</Activated>
+            <Areas>
+                <ObjectReference id="RectangleArea_Runway19" InstanceId="{08ef8f6e-78c5-49db-a819-1becfeaff0d8}">
+                </ObjectReference>
+            </Areas>
+            <OnEnterActions>
+                <ObjectReference id="Action_dialogstop" InstanceId="{693de875-465e-4450-99b2-766bf07bf4d3}">
+                </ObjectReference>
+                <ObjectReference id="Action_Goal1" InstanceId="{5835f683-22f7-4749-8cfc-5af7e18e3861}">
+                </ObjectReference>
+            </OnEnterActions>
+        </SimMission.ProximityTrigger>
+		
+		<SimMission.AirportLandingTrigger InstanceId="{773358DF-910D-4C51-BFC8-3001006B1C2E}">
+            <Descr>AirportLandingTriggerLaTuque</Descr>
+            <AirportIdent>CYLQ</AirportIdent>
+            <LandingType>FullStop</LandingType>
+			<Activated>False</Activated>
+            <Actions>
+                <ObjectReference id="Action_dialogend" InstanceId="{27f1ba39-ec98-4c44-b0a3-715bdeac2aa0}">
+                </ObjectReference>
+				<ObjectReference id="Action_Goal2" InstanceId="{9f7a28e0-2b81-4fc5-b59f-290fc5f0f2f5}">
+                </ObjectReference>
+            </Actions>
+        </SimMission.AirportLandingTrigger>
+		
+		<SimMission.ObjectActivationAction InstanceId="{bac3e453-cfd9-4320-b455-6680525aa419}">
+            <Descr>ActionTriggerRunway19</Descr>
+            <ObjectReferenceList>
+                <ObjectReference id="Trigger_Runway19" InstanceId="{1d66d94a-03ae-4134-ac6a-64575ba3c7da}">
+                </ObjectReference>
+				<ObjectReference id="Trigger_AirportLanding" InstanceId="{773358DF-910D-4C51-BFC8-3001006B1C2E}">
+                </ObjectReference>
+            </ObjectReferenceList>
+        </SimMission.ObjectActivationAction>
+		
+		<SimMission.GoalResolutionAction InstanceId="{5835f683-22f7-4749-8cfc-5af7e18e3861}">
+            <Descr>GoalResolutionAction_Goal1</Descr>
+            <Goals>
+                <ObjectReference id="Goal1" InstanceId="{9422c837-892d-4dc6-a1a0-a0d9fde8285b}">
+                </ObjectReference>
+            </Goals>
+        </SimMission.GoalResolutionAction>
+		
+		<SimMission.GoalResolutionAction InstanceId="{9f7a28e0-2b81-4fc5-b59f-290fc5f0f2f5}">
+            <Descr>GoalResolutionAction_Goal2</Descr>
+            <Goals>
+                <ObjectReference id="Goal2" InstanceId="{2c798a46-0ce8-4158-a1f2-c35c0016b7fd}">
+                </ObjectReference>
+            </Goals>
+        </SimMission.GoalResolutionAction>
+		
+		<SimMission.Goal InstanceId="{9422c837-892d-4dc6-a1a0-a0d9fde8285b}">
+            <Descr>Goal1</Descr>
+            <Text>Landed at La Tuque on runway 19</Text>
+        </SimMission.Goal>
+		
+		<SimMission.Goal InstanceId="{2c798a46-0ce8-4158-a1f2-c35c0016b7fd}">
+            <Descr>Goal2</Descr>
+            <Text>Complete stop</Text>
+        </SimMission.Goal>
+		
+        <SimMissionUI.ScenarioMetadata InstanceId="{3705a1e2-ebea-4df4-a89f-4a7692170ba5}">
+            <Descr>Test Mission</Descr>
+            <LocationDescr>La Tuque, CANADA(PQ)</LocationDescr>
+            <EstimatedTime>5 minutes</EstimatedTime>
+            <CompletedImage>images\testmission_Loading.jpg</CompletedImage>
+            <ExitMissionImage>images\testmission_Briefing.jpg</ExitMissionImage>
+        </SimMissionUI.ScenarioMetadata>
+        
+    </WorldBase.Flight>
+</SimBase.Document>
