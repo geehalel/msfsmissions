@@ -16,11 +16,13 @@ Compiled mission packages are in the `missionpackages` directory.
 This first mission is derived from the Boeing Field mission found in the Mission Creation Kit of the FSX SDK,
 I just located the mission in La Tuque (Canada PQ).
 
-There is a [first release archive of the test mission](https://github.com/geehalel/msfsmissions/raw/master/mission-packages/geehalel-testmission-0.1.0.zip), just unzip the file under the Community directory.
+There is a [first release archive of the test mission](https://github.com/geehalel/msfsmissions/raw/master/mission-packages/geehalel-testmission-0.1.0.zip), 
+just unzip the file under the Community directory.
 
 #### Some notes for myself
 - FSX/ESP 1.0 mission elements are parsed as before. There is a bunch of new elements however.
 Better wait all this to be published in the next SDK release.
+- Use .GUID app from the Microsoft store to create Guids 
 - Images: use jpegs (not sure pngs are ok), Briefing/Loading images may be any size (screenshots),
 the Activity_Widget thumbnail should be 786x602. There is a marketplace thumbnail too, which should be 412x170 (not tested).
 Use `paint` to edit/resize screenshot captures. 
@@ -28,3 +30,5 @@ Use `paint` to edit/resize screenshot captures.
 - End of mission: nothing happens in the current version.
 - No menu, vfr, atc during the mission, but you can change view
 - Try to put multiple missions in a package
+- Add scenery objects: use Model GUID, need to decompile BGL files, don't find them in the Scenery Editor
+- Add Sim objects: animation may have changed
