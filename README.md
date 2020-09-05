@@ -16,7 +16,7 @@ Compiled mission packages are in the `missionpackages` directory.
 This first mission is derived from the Boeing Field mission found in the Mission Creation Kit of the FSX SDK,
 I just located the mission in La Tuque (Canada PQ).
 
-There is a [first release archive of the test mission](missionpackages/geehalel-testmission-0.1.0.zip), just unzip the file under the Community directory.
+There is a [first release archive of the test mission](https://github.com/geehalel/msfsmissions/raw/master/mission-packages/geehalel-testmission-0.1.0.zip), just unzip the file under the Community directory.
 
 #### Some notes for myself
 - FSX/ESP 1.0 mission elements are parsed as before. There is a bunch of new elements however.
