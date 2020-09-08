@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<SimBase.Document Type="MissionFile" version="1,0" id="latuquechalets">
+  <Title>Chalets de La Tuque</Title>
+  <Filename>bushtrip-latuquechalets.spb</Filename>
+  <WorldBase.Flight>
+    <SimMission.MissionBushTrip id="Bushtrip_LaTuqueChalets" InstanceId="{4c6b659c-44df-4e53-8049-00a32ea813fc}">
+      <Descr>Supply chalets in la Tuque with a small seaplane</Descr>
+      <Legs>
+        <Leg>
+          <Descr>Chalet on lake Doucet</Descr>
+          <ImagePath>
+          </ImagePath>
+		  <AreaLandingTrigger InstanceId="{493afc98-ca64-4491-a5d6-b424222530f7}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>Take off and look for the motocross field at your right, just after the end of the runway. Turn left when you reach it while you continue climbing.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="CYLQ" />
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Soon at the top of the hill, you will find a track, the 'Chemin du lac Wayagamak". Follow it to the north. </Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI1">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI2">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>At the intersection, follow the left track, till the 'Chemin de lac Wayagamak', which follows the river 'Petite rivière Bastonnais'. To the east you should already
+			  see the lake Wayagamak. Follow the river or the track which leads to the lake</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI2">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI3">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>When you reach the lake Wayagamak, simply follow its north bank, or still follow the track, up to the opposite bank, the eastern bank. </Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI3">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI4">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>You should see at the east, if you still follow the track, a smaller lake, the 'Petit lac Wayagamak'. fly over its north bank and cross it.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI4">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI5">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>The track becomes a small road ('Route2') and gets around a small hill. Follow that road or just fly over the hill.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI5">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI6">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>You will find an intersection of tracks, near a small bean shaped lake ('Lac Scott'). Look to the south, you will see an elongated lake, oriented
+			  almost north/south. This is the 'Lac Doucet' where you should land.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI6">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI7">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>Prepare to land on the 'Lac Doucet', and find a chalet located near the south bank of the lake.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI7">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI8">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>Lac Doucet: go near the pontoon.</Descr>
+              <ImagePath>images\LacDoucet.png</ImagePath>
+              <ATCWaypointStart id="POI8">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI9">
+			    <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+          </SubLegs>
+        </Leg>
+		<Leg>
+          <Descr>Chalet on lake Desrochers</Descr>
+          <ImagePath>
+          </ImagePath>
+		  <AreaLandingTrigger InstanceId="{b8600942-c7ec-4c78-9e4f-083cc92f7a69}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>Take off to the south from Lac Doucet and start climbing until you see a powerline.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI9">
+			    <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!B</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>Follow the powerline to the south. After approximatively 5 Nm, a small river crosses the powerline, forming a small cannyon.
+			  At the east, there is a small elongated lake, oriented East/west, Lac Turgeon. Turn to the right and follow that small canyon to the west.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI1">
+                <idRegion>!B</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI2">
+                <idRegion>!B</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>After one Nm or two , the small cannyon goes between two small hills, leading you to a track, and on the right, to the north,
+			  you will find an irregular elongated lake, oriented north/south. This is Lake Desrochers where you should land.</Descr>
+              <ImagePath></ImagePath>
+              <ATCWaypointStart id="POI2">
+                <idRegion>!B</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI3">
+			  <idRegion>!B</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>Chalet des Epinettes: on the east bank of the lake, there is a chalet with a blue roof that you can glimpse between the trees.
+			  Land on the lake and go near the chalet.</Descr>
+              <ImagePath>images\LacDesrochers.png</ImagePath>
+              <ATCWaypointStart id="POI3">
+                <idRegion>!B</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI4">
+			    <idRegion>!B</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+          </SubLegs>
+        </Leg>
+		<Leg>
+          <Descr>Back to La Tuque</Descr>
+          <ImagePath>
+          </ImagePath>
+		  <AirportLandingTriggerEnd UniqueRefId="{7af9307a-0651-4e80-8ee5-8fc534b4a433}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>Take off to the south or to the north from Lac Desrochers and start climbing until you reach your cruising altitude (1500 feet).</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI4">
+			    <idRegion>!B</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!C</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>When above the surrounding hills, fly to the west for a tenth of Nm, until you reach a powerline oriented north/south.
+			   To the north you could see the lake Wayagamak near the horizon.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI1">
+                <idRegion>!C</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI2">
+                <idRegion>!C</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Follow the powerline to the northwest until you reach a main road along the Saint Maurice river. You should already see
+			  the La Tuque airport to the north. Follow the river.</Descr>
+              <ImagePath></ImagePath>
+              <ATCWaypointStart id="POI2">
+                <idRegion>!C</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI3">
+			    <idRegion>!C</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>La Tuque airport: land on runway 1 and park the seaplane.</Descr>
+              <ImagePath></ImagePath>
+              <ATCWaypointStart id="POI3">
+                <idRegion>!C</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="CYLQ" />
+            </SubLeg>
+          </SubLegs>
+        </Leg>
+	  </Legs>
+      <Objectives>
+        <Objective UniqueRefId="{d66e3c63-6a0f-47a5-9466-46a4cd1b2f21}">
+          <Descr>End mission</Descr>
+        </Objective>
+      </Objectives>
+      <OnFinishedActions>
+        <WorldBase.ObjectReference id="End Of Mission" InstanceId="{28ceeafd-5fb2-4f92-8b1b-67d656ed5be8}" />
+      </OnFinishedActions>
+    </SimMission.MissionBushTrip>
+	<SimMission.AirportCalculator InstanceId="{7af9307a-0651-4e80-8ee5-8fc534b4a433}">
+      <Descr>La Tuque Airport</Descr>
+      <AirportIdent>CYLQ</AirportIdent>
+      <Activated>false</Activated>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="LandedOnRunway">
+          <CalculatorFormula>
+            [OnGround]
+            if{
+            [SignedDistanceToClosestRunway] 0 &lt;
+            if{ 1 }
+            els{ [LandedOnRunway] }
+            }
+            els{
+            0
+            }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerLanded">
+          <CalculatorFormula>
+            [LandedOnRunway] [IsInAirportArea] (A:GROUND VELOCITY, Knots) 2 &lt; and and
+            if{
+            [TimerLanded] [dtime] +
+            }
+            els{ 0 }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="RunwayDistanceThreshold">
+          <CalculatorFormula>
+            100
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [RunwayDistanceThreshold] &gt; [OnGround] and [FarTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OutsideTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [RunwayDistanceThreshold] &lt; [SignedDistanceToClosestRunway] 0 &gt; [OnGround] and and [OutsideTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [OutsideTouchDown] [FarTouchDown] not and
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{21f4cd47-e7d9-4f84-af5e-b51fcaf6de62}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <DeactivateAfterExecution>true</DeactivateAfterExecution>
+          <CalculatorFormula>
+            [TimerLanded] 2 &gt;
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_LandingRest" InstanceId="{5922486c-d605-4918-8abc-b3b43852bffb}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.AirportCalculator>
+	
+	<SimMission.RectangleArea InstanceId="{4717f517-15b5-4e1e-85d3-8d54e07245e0}">
+      <Descr>RectangleArea_LakeDoucet</Descr>
+      <Orientation>0.000,0.000,175.65527269161526647</Orientation>
+      <Length>1000.000</Length>
+      <Width>100.000</Width>
+      <Height>20.000</Height>
+      <AttachedWorldPosition>
+        <WorldPosition>N47° 21.74', W72° 27.00',+000000.00</WorldPosition>
+        <AltitudeIsAGL>True</AltitudeIsAGL>
+      </AttachedWorldPosition>
+    </SimMission.RectangleArea>
+	
+	<SimMission.RectangleArea InstanceId="{856a183c-660b-4c19-a236-8c7257cb8ea1}">
+      <Descr>RectangleArea_LakeDesrochers</Descr>
+      <Orientation>0.000,0.000,005.65527269161526647</Orientation>
+      <Length>1000.000</Length>
+      <Width>100.000</Width>
+      <Height>20.000</Height>
+      <AttachedWorldPosition>
+        <WorldPosition>N47° 14.56', W72° 28.64',+000000.00</WorldPosition>
+        <AltitudeIsAGL>True</AltitudeIsAGL>
+      </AttachedWorldPosition>
+    </SimMission.RectangleArea>
+	
+	<SimMission.AreaLandingTrigger InstanceId="{493afc98-ca64-4491-a5d6-b424222530f7}">
+	  <Areas>
+	    <WorldBase.ObjectReference id="Area_LakeDoucet" InstanceId="{4717f517-15b5-4e1e-85d3-8d54e07245e0}" />
+	  </Areas>
+	</SimMission.AreaLandingTrigger>
+	<SimMission.AreaLandingTrigger InstanceId="{b8600942-c7ec-4c78-9e4f-083cc92f7a69}">
+	  <Areas>
+	    <WorldBase.ObjectReference id="Area_LakeDesrochers" InstanceId="{856a183c-660b-4c19-a236-8c7257cb8ea1}" />
+	  </Areas>
+	</SimMission.AreaLandingTrigger>
+	
+	
+	<SimMission.Goal InstanceId="{d66e3c63-6a0f-47a5-9466-46a4cd1b2f21}">
+      <Descr>End of mission</Descr>
+      <Activated>false</Activated>
+    </SimMission.Goal>
+    <SimMission.GoalResolutionAction InstanceId="{28ceeafd-5fb2-4f92-8b1b-67d656ed5be8}">
+      <Descr>Resolve Goal End of mission</Descr>
+      <Goals>
+        <WorldBase.ObjectReference id="Mission END" InstanceId="{d66e3c63-6a0f-47a5-9466-46a4cd1b2f21}" />
+      </Goals>
+    </SimMission.GoalResolutionAction>
+	
+    <SimMission.TimerTriggerFlowStateAction InstanceId="{f414c8a9-2f5f-44be-ab85-abe6f88af663}">
+      <Descr>TimerStart</Descr>
+      <DefaultActivated>true</DefaultActivated>
+      <OnScreenTimer>true</OnScreenTimer>
+      <UseFirstFlightState>true</UseFirstFlightState>
+      <Actions>
+        <WorldBase.ObjectReference id="WiseAFSSet" InstanceId="{85a304f8-2ee0-4d4f-9f24-6cf7ff326cdf}" />
+      </Actions>
+    </SimMission.TimerTriggerFlowStateAction>
+    <SimMission.FlowStateAction InstanceId="{2004ce63-e9b9-4c27-93e3-6e273b7c0dd4}">
+      <FlowStateName>INTRO</FlowStateName>
+      <StayInStateAfterEndTeleportActions>false</StayInStateAfterEndTeleportActions>
+      <IsFirstStateInTimeline>true</IsFirstStateInTimeline>
+      <FromSpawn>true</FromSpawn>
+      <TeleportFlowEvents>
+        <FlowEvent id="SHOW_MISSION_STARTUP" />
+        <FlowEvent id="PAUSE_SIM" />
+      </TeleportFlowEvents>
+      <StartFlowEvents>
+        <FlowEvent id="UNACTIVATE_PUSHBACK" />
+        <FlowEvent id="UNPAUSE_SIM" />
+        <FlowEvent id="PANEL_COPILOT_FORCE_DISABLED" />
+        <FlowEvent id="PANEL_CHECKLIST_FORCE_DISABLED" />
+        <FlowEvent id="PANEL_FUEL_PAYLOAD_FORCE_DISABLED" />
+        <FlowEvent id="PANEL_TELEPORT_FORCE_DISABLED" />
+        <FlowEvent id="PANEL_OBJECTIVES_FORCE_DISABLED" />
+      </StartFlowEvents>
+      <TeleportActions>
+        <WorldBase.ObjectReference id="WWiseRTCState_RTC_CONDITIONAL" InstanceId="{97cd5f84-4a6f-49f9-9ee9-586002a7c33a}" />
+        <WorldBase.ObjectReference id="RTC_Ground_Airport_Aircraft_Intro" InstanceId="{306B2AE4-06BA-48C3-93A0-BD5569E6EF5B}" />
+      </TeleportActions>
+      <EndActions>
+        <WorldBase.ObjectReference id="WWiseRTCState_NON_RTC" InstanceId="{28456bb5-3141-4661-acbb-d141859135b0}" />
+      </EndActions>
+      <NextState id="BUSHTRIP" InstanceId="{e15be4fc-38ea-4f51-9ee1-82cbd4f42b2b}" />
+    </SimMission.FlowStateAction>
+    <SimMission.FlowStateAction InstanceId="{e15be4fc-38ea-4f51-9ee1-82cbd4f42b2b}">
+      <FlowStateName>BUSHTRIP</FlowStateName>
+      <AutoStateSwitchEnabled>false</AutoStateSwitchEnabled>
+      <StartFlowEvents>
+        <FlowEvent id="PANEL_GAME_NAVLOG_SHOW" />
+        <FlowEvent id="PANEL_VFR_MAP_SHOW" />
+      </StartFlowEvents>
+      <NextState id="LANDING_REST" InstanceId="{cdf830ff-94d9-4fdf-bdcf-f85c930ab165}" />
+    </SimMission.FlowStateAction>
+    <SimMission.FlowStateAction InstanceId="{cdf830ff-94d9-4fdf-bdcf-f85c930ab165}">
+      <FlowStateName>LANDING_REST</FlowStateName>
+      <AutoStateSwitchEnabled>false</AutoStateSwitchEnabled>
+      <StartActions>
+        <WorldBase.ObjectReference id="RTC_Ground_Aircraft_Outro" InstanceId="{5DAADB19-3BA3-4235-BCC0-39CD6F4CD4D9}" />
+      </StartActions>
+      <NextState id="BUSHTRIP" InstanceId="{e15be4fc-38ea-4f51-9ee1-82cbd4f42b2b}" />
+    </SimMission.FlowStateAction>
+	<SimMission.FlowEventAction InstanceId="{5922486c-d605-4918-8abc-b3b43852bffb}">
+      <Descr>FlowEvent_Landing_Rest</Descr>
+      <FlowEvents>
+        <FlowEvent id="BUSHTRIP_LEG_COMPLETED" />
+      </FlowEvents>
+    </SimMission.FlowEventAction>
+	<SimMission.EventTriggerAction id="ACT_NotifOutOfRunway" InstanceId="{21f4cd47-e7d9-4f84-af5e-b51fcaf6de62}">
+      <Descr>Landed outside of runway</Descr>
+      <Name>EVENT_TRIGGER_NOT_ON_RUNWAY</Name>
+    </SimMission.EventTriggerAction>
+    <SimMission.FlowStateWise InstanceId="{85a304f8-2ee0-4d4f-9f24-6cf7ff326cdf}">
+      <Descr>WiseAFSSet</Descr>
+      <GroupName>ACTIVITIES_FLOW_STATE</GroupName>
+      <ElementName>BUSHTRIP</ElementName>
+    </SimMission.FlowStateWise>
+    <SimMission.FlowStateWise InstanceId="{28456bb5-3141-4661-acbb-d141859135b0}">
+      <Descr>WWiseRTCState_NON_RTC</Descr>
+      <GroupName>GAME_RTC_STATE</GroupName>
+      <ElementName>NON_RTC</ElementName>
+    </SimMission.FlowStateWise>
+    <SimMission.FlowStateWise InstanceId="{97cd5f84-4a6f-49f9-9ee9-586002a7c33a}">
+      <Descr>WWiseRTCState_RTC</Descr>
+      <GroupName>GAME_RTC_STATE</GroupName>
+      <ConditionalElementName>
+        <ReversePolishCondition>(A:PLANE ALT ABOVE GROUND, meter) (A:STATIC CG TO GROUND, meter) - 0 &lt; </ReversePolishCondition>
+        <ElementName>RTC</ElementName>
+      </ConditionalElementName>
+      <ConditionalElementName>
+        <ReversePolishCondition>(A:PLANE ALT ABOVE GROUND, meter) (A:STATIC CG TO GROUND, meter) - 0 &gt; </ReversePolishCondition>
+        <ElementName>RTC_IN_FLIGHT</ElementName>
+      </ConditionalElementName>
+    </SimMission.FlowStateWise>
+  </WorldBase.Flight>
+</SimBase.Document>

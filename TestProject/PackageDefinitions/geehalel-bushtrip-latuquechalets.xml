@@ -1,0 +1,22 @@
+<AssetPackage Name="geehalel-bushtrip-latuquechalets" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>MISSION</ContentType>
+		<Title>La Tuque chalets package</Title>
+		<Manufacturer/>
+		<Creator>geehalel</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="bushtrip-latuquechalets">
+			<Type>Mission</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources/latuque-chalets-cylq\</AssetDir>
+			<OutputDir>Missions/geehalel/BushTrips/latuque-chalets-cylq\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>

@@ -1,0 +1,472 @@
+
+[Main]
+MissionType=BushTrip
+MissionLocation= La Tuque
+Title=Supply chalets
+Description=La Tuque, Canada PQ
+AppVersion=10.0.282174
+FlightVersion=1
+
+[Options]
+Sound=True
+Moonlight=True
+Save=False
+SaveOriginalFlightPlan=False
+TextDisplayPage=0
+SlewDisplayPage=1
+AxisIndicator=Off
+Titles=False
+
+[Sim.0]
+Sim=Icon A5 Asobo
+Pilot=Default
+Copilot=Default
+TailNumber=
+AirlineCallSign=
+FlightNumber=
+AppendHeavy=False
+
+[ObjectFile]
+File=bushtrip-latuquechalets
+
+[Weather]
+UseWeatherFile=False
+UseLiveWeather=True
+WeatherPresetFile=
+WeatherCanBeLive=False
+CloudmapPosOverride=False
+CloudmapInitialPosX=0
+CloudmapInitialPosY=0
+FixedClouds=False
+
+[Departure]
+ICAO=CYLQ
+RunwayNumber=19
+RunwayDesignator=NONE
+
+[Arrival]
+ICAO=CYLQ
+RunwayNumber=1
+RunwayDesignator=NONE
+
+[Loading]
+ImageName=./images/Loading.jpg
+
+[Briefing]
+BriefingText="Fly the Icon A5 to supply chalets around La Tuque."
+BriefingImage0=./images/Briefing.jpg
+StartUpLocationInfo0=FLIGHT_INFO_RUNWAY_ARRIVAL_ELEVATION
+StartUpLocationInfo1=FLIGHT_INFO_RUNWAY_ARRIVAL_SLOPE
+StartUpLocationInfo2=FLIGHT_INFO_LOCATION_TIME
+StartUpLocationInfo3=FLIGHT_INFO_LOCATION_WIND
+StartUpAircraftInfo0=FLIGHT_INFO_AIRCRAFT_IAS
+StartUpAircraftInfo1=FLIGHT_INFO_AIRCRAFT_HEADING
+StartUpAircraftInfo2=FLIGHT_INFO_AIRCRAFT_STALL_SPEED_FLAPS_UP
+
+[Panels]
+Panel.On=True
+HUD.On=False
+
+[Window.1]
+Order=255
+Active=True
+Undocked=False
+Maximized=True
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+
+[ATC_AgentManager]
+NumberofAgents=0
+
+[ATC_Aircraft.0]
+ActiveFlightPlan=True
+RequestedFlightPlan=False
+AcState=ACSTATE_CTAF_TAKEOFF
+ActiveVFRAirport=CYLQ
+Waypoint.0=, CYLQ, , La Tuque, A, N47° 24.56', W72° 47.34', +000548.00, , , , , , NONE, 0, 0, -1
+Waypoint.1=!A, POI1, , Motocross Field, U, N47° 23.43', W72° 47.13', +000750.00, , , , , , NONE, 0, 0, -1
+Waypoint.2=!A, POI2, , Chemin du Lac Wayagamak, U, N47° 23.43', W72° 45.85', +000900.00, , , , , , NONE, 0, 0, -1
+Waypoint.3=!A, POI3, , Petite rivière Bastonnais, U, N47° 23.82', W72° 44.75', +001050.00, , , , , , NONE, 0, 0, -1
+Waypoint.4=!A, POI4, , Lac Wayagamak, U, N47° 23.04', W72° 41.68', +001500.00, , , , , , NONE, 0, 0, -1
+Waypoint.5=!A, POI5, , Baie Brunelle, , N47° 23.85', W72° 35.32', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.6=!A, POI6, , Petit lac Wayagamak, U, N47° 23.41', W72° 30.37', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.7=!A, POI7, , Route 2-Lac Tessier, U, N47° 22.76', W72° 27.47', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.8=!A, POI8, , Lac Doucet, U, N47° 21.74', W72° 27.00', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.9=!A, POI9, , Chalet Doucet, U, N47° 20.76', W72° 26.76', +001084.00, , , , , , NONE, 0, 0, -1
+Waypoint.10=!B, POI1, , Powerline, U, N47° 20.04', W72° 26.28', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.12=!B, POI2, , Lac turgeon, U, N47° 14.92', W72° 25.46', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.13=!B, POI3, , Lac Desrochers, U, N47° 14.56', W72° 28.64', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.14=!B, POI4, , Chalet des Epinettes, U, N47° 15.24', W72° 28.53', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.15=!C, POI1, , To the west, U, N47° 16.53', W72° 27.58', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.17=!C, POI2, , Powerline, U, N47° 16.17', W72° 43.95', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.18=!C, POI3, , Saint Maurice River , U, N47° 20.58', W72° 47.86', +001350.00, , , , , , NONE, 0, 0, -1
+Waypoint.19=, CYLQ, , La Tuque, A, N47° 24.56', W72° 47.34', +000550.00, , , , , , NONE, 0, 0, -1
+NumberofWaypoints=20
+ClearanceFlags=882
+CtCur=CLEARANCE_NONE
+WaypointNext=1
+AltCleared=-1
+HdgAssigned=-1
+SquawkAssigned=1006637568
+LandingSequence=LANDING_NONE
+DepartureRequest=DEPARTURE_VFR_REQUEST_DEPART_STRAIGHT_OUT
+ParkingRequest=PARKING_NAME_NONE
+ParkingTypeRequest=PARKING_TYPE_NONE
+PatternLeg=PATTERN_LEG_NONE
+ApproachIndex=-1
+ApproachTransitionIndex=-1
+ApproachRequestIndex=-1
+ApproachTransitionRequestIndex=-1
+RunwayIndex=1
+RunwayRequestIndex=-1
+ParkingIndex=3
+FlightFollowing=FLIGHT_FOLLOWING_NO
+AirspaceTransition=AIRSPACE_TRANSITION_NONE
+BVAirspaceTransition=BV_TYPE_NONE
+BVAirspaceTransitionReq=BV_TYPE_NONE
+TakeoffSequence=TAKEOFF_SEQUENCE_NONE
+LandingSequenceNumber=-1
+TaxiRouteCurrent=-1
+CruisingAltitude=1500
+RequestedCruisingAltitude=-1
+ExpectedAltitude=-1
+AircraftSignature=1,0
+
+[ATC_ActiveFlightPlan.0]
+title=CYLQ to CYLQ
+description=CYLQ, CYLQ
+type=VFR
+routetype=0
+cruising_altitude=2000
+departure_id=CYLQ, N47° 24.15', W72° 47.30', +000547.00
+departure_position=01
+destination_id=CYLQ, N47° 24.58', W72° 47.33', +000547.00
+departure_name=La Tuque
+destination_name=La Tuque
+waypoint.0=, CYLQ, , La Tuque, A, N47° 24.56', W72° 47.34', +000548.00, , , , , , NONE, 0, 0, -1
+waypoint.1=, , , WP1, U, N47° 23.43', W72° 47.13', +000750.00, , , , , , NONE, 0, 0, -1
+waypoint.2=, , , WP2, U, N47° 23.43', W72° 45.85', +000900.00, , , , , , NONE, 0, 0, -1
+waypoint.3=, , , WP3, U, N47° 23.82', W72° 44.75', +001050.00, , , , , , NONE, 0, 0, -1
+waypoint.4=, , , WP4, U, N47° 23.04', W72° 41.68', +001500.00, , , , , , NONE, 0, 0, -1
+waypoint.5=, , , WP5, U, N47° 23.85', W72° 35.32', +002000.00, , , , , , NONE, 0, 0, -1
+waypoint.6=, , , WP6, U, N47° 23.41', W72° 30.37', +002000.00, , , , , , NONE, 0, 0, -1
+waypoint.7=, , , WP7, U, N47° 22.76', W72° 27.47', +002000.00, , , , , , NONE, 0, 0, -1
+waypoint.8=, , , WP8, U, N47° 21.74', W72° 27.00', +002000.00, , , , , , NONE, 0, 0, -1
+waypoint.9=, , , CYDOUCET, U, N47° 21.01', W72° 26.69', +002000.00, , , , , , NONE, 0, 0, -1
+waypoint.10=, , , WP9, U, N47° 20.04', W72° 26.28', +002000.00, , , , , , NONE, 0, 0, -1
+waypoint.11=, , , TIMECRUIS, U, N47° 18.79', W72° 26.08', +002000.00, , , , , , NONE, 0, 0, -1
+waypoint.12=, , , WP11, U, N47° 14.92', W72° 25.46', +002000.00, , , , , , NONE, 0, 0, -1
+waypoint.13=, , , WP12, U, N47° 14.56', W72° 28.64', +002000.00, , , , , , NONE, 0, 0, -1
+waypoint.14=, , , CYEPINETTE, U, N47° 15.24', W72° 28.53', +002000.00, , , , , , NONE, 0, 0, -1
+waypoint.15=, , , WP13, U, N47° 16.53', W72° 27.58', +002000.00, , , , , , NONE, 0, 0, -1
+waypoint.16=, , , TIMEDSCNT, U, N47° 16.49', W72° 29.46', +002000.00, , , , , , NONE, 0, 0, -1
+waypoint.17=, , , WP14, U, N47° 16.17', W72° 43.95', +002000.00, , , , , , NONE, 0, 0, -1
+waypoint.18=, , , WP15, U, N47° 20.58', W72° 47.86', +001350.00, , , , , , NONE, 0, 0, -1
+waypoint.19=, CYLQ, , La Tuque, A, N47° 24.56', W72° 47.34', +000550.00, , , , , , NONE, 0, 0, -1
+
+[ATC_AircraftManager]
+NumberofAircraft=1
+
+[ATC_MessageSystem]
+FrequencyNodes=0
+
+[GPS_Engine]
+Filename=C:\USERS\GEEHALE\APPDATA\LOCAL\PACKAGES\MICROSOFT.FLIGHTSIMULATOR_8WEKYB3D8BBWE\LOCALSTATE\MISSIONS\CUSTOM\CUSTOMFLIGHT\CUSTOMFLIGHT
+position=N47° 24.87', W72° 47.38', +000551.26
+Time=44312
+TimeWP=74149
+ArriveTime=2055
+CountWP=20
+NextWP=1
+PlaneStarted=True
+WpInfo0=48, 0, 167, 0, 0, 10.0, 0.0, 0.0
+WpInfo1=82, 0, 228, 0, 0, 0.0, 0.1, 0.0
+WpInfo2=84, 0, 274, 0, 0, 0.0, 0.1, 0.0
+WpInfo3=84, 0, 320, 0, 0, 0.0, 0.1, 0.0
+WpInfo4=83, 0, 457, 0, 0, 0.0, 0.2, 0.0
+WpInfo5=83, 0, 609, 0, 0, 0.0, 0.3, 0.0
+WpInfo6=82, 0, 609, 0, 0, 0.0, 0.2, 0.0
+WpInfo7=81, 0, 609, 0, 0, 0.0, 0.1, 0.0
+WpInfo8=82, 0, 609, 0, 0, 0.0, 0.1, 0.0
+WpInfo9=82, 0, 609, 0, 0, 0.0, 0.1, 0.0
+WpInfo10=82, 0, 609, 0, 0, 0.0, 0.1, 0.0
+WpInfo11=82, 0, 609, 0, 0, 0.0, 0.1, 0.0
+WpInfo12=82, 0, 609, 0, 0, 0.0, 0.3, 0.0
+WpInfo13=87, 0, 609, 0, 0, 0.0, 0.1, 0.0
+WpInfo14=85, 0, 609, 0, 0, 0.0, 0.0, 0.0
+WpInfo15=84, 0, 609, 0, 0, 0.0, 0.1, 0.0
+WpInfo16=88, 0, 609, 0, 0, 0.0, 0.1, 0.0
+WpInfo17=87, 0, 609, 0, 0, 0.0, 0.7, 0.0
+WpInfo18=87, 0, 411, 0, 0, 0.0, 0.3, 0.0
+WpInfo19=64, 0, 167, 0, 0, 0.0, 0.4, 0.0
+CountFP=1
+FP0=2833696b,cc3d0ebf,00000000,00000000,00000000,00000000,00000000,00000000
+
+[DateTimeSeason]
+Season=Summer
+Year=2020
+Day=250
+Hours=8
+Minutes=18
+Seconds=32
+UseZuluTime=False
+
+[SimplifiedSim.0]
+Mode=None
+
+[SimVars.0]
+Latitude=N47° 24' 52.30"
+Longitude=W72° 47' 22.56"
+Altitude=+000551.26
+Pitch=-0.14469362220381942752
+Bank=-0.18715147466598766601
+Heading=175.65203076218665501
+PVelBodyAxis=0
+BVelBodyAxis=0
+HVelBodyAxis=0
+XVelBodyAxis=-0
+YVelBodyAxis=0
+ZVelBodyAxis=0
+SimOnGround=True
+OnPlatformHeight=-9999999999
+
+[Avionics.0]
+Comm1Active=122.800
+Comm1Standby=124.850
+Comm2Active=124.850
+Comm2Standby=124.850
+Comm3Active=124.850
+Comm3Standby=124.850
+Nav1Active=110.50
+Nav1Standby=113.90
+OBS1=360
+Nav2Active=110.50
+Nav2Standby=113.90
+OBS2=360
+Transponder=1200
+TransponderState=4
+ADFActive=890
+ADF2Active=890
+DMESelected=1
+ComTransmit=1
+ComReceiveBoth=False
+Com1Receive=True
+Com2Receive=False
+Com3Receive=False
+AudioNav1Listen=False
+AudioNav2Listen=False
+AudioMarkerListen=True
+AudioDmeListen=False
+AudioAdfListen=False
+AudioAdf2Listen=False
+AvionicsSwitch=True
+
+[Slew.0]
+Active=False
+
+[Freeze.0]
+Location=False
+Altitude=False
+Attitude=False
+
+[Engine Parameters.1.0]
+ThrottleLeverPct=0
+PropellerLeverPct=1
+MixtureLeverPct=1
+Pct Engine RPM=0.28681310712839891419
+MaxReachedEngineRPM=4077.7570360217632697
+Pct N1=-1
+Pct N2=-1
+LeftMagneto=True
+RightMagneto=True
+GeneratorSwitch=True
+CowlFlapPct=0
+FuelPumpSwitch=False
+FuelPumpSwitch_EX1=0
+FuelValveOpen=True
+CarbHeat/DeiceSwitch=False
+EngineMasterSwitch=True
+GlowPlugTemperaturePct=1
+IgnitionSwitch=0
+StarterSwitch=False
+EGT_DegR=842.5278981962992475
+ITT_DegR=0
+
+[Propeller.1.0]
+prop_beta=0.34906585039886589561
+prop_max_rpm_percent=0.28681310712839891419
+
+[Fuel.0]
+TankSelector=All
+TankSelector1=All
+Center=0
+LeftMain=49.986560821533203125
+RightMain=0
+LeftAux=0
+RightAux=0
+LeftTip=0
+RightTip=0
+Center 2=0
+Center 3=0
+External 1=0
+External 2=0
+
+[Systems.0]
+BatterySwitch=True
+StructuralDeiceSwitch=False
+StructuralDeiceSwitch_EX1=0
+PropDeiceSwitch=False
+Autobrakes=0
+StandbyVacuum=False
+PropSync=False
+AutoFeatherSwitch=False
+FlightDirector=False
+PanelLights=False
+LaunchBarSwitch=False
+LaunchBarState=0
+TailhookHandle=False
+TailhookState=0
+FoldingWingsHandle=False
+FoldingWingsState=0, 0
+ExternalPowerSwitch=False
+AuxPowerUnitSwitch=False
+
+[Gauges.0]
+KollsmanSetting=29.921342849731445312
+
+[BleedAir.0]
+BleedAirSource=0
+EngineAirBleed.1=True
+EngineAirBleed.2=True
+EngineAirBleed.3=True
+EngineAirBleed.4=True
+APUAirBleed=True
+
+[LocalVars.0]
+AS1000_AttitudeBackup_ScreenLuminosity=1
+AS1000_AttitudeBackup_State=2
+Aera_ScreenLuminosity=1
+Aera_State=2
+AIRLINER_MCDU_CURRENT_FPLN_WAYPOINT=-1
+FLIGHTPLAN_USE_DECEL_WAYPOINT=0
+XMLVAR_Magneto_Starter_IsHeld=0
+XMLVAR_YokeHidden1=0
+XMLVAR_LeverFlapsHidden=0
+XMLVAR_LeverThrottleHidden1=0
+XMLVAR_LTS_Test=0
+MAP_SHOW_TEMPORARY_FLIGHT_PLAN=0
+MAP_FLIGHTPLAN_HIGHLIT_WAYPOINT=0
+HUD_AP_SELECTED_SPEED=0
+HUD_AP_SELECTED_ALTITUDE=0
+
+[Switches.0]
+PitotHeat=False
+PitotHeat_EX1=0
+WindshieldDeice=0
+BeaconLights=True
+LandingLights=True
+LogoLights=True
+NavLights=True
+PanelLights=False
+RecognitionLights=True
+StrobeLights=True
+TaxiLights=False
+WingLights=True
+CabinLights=False
+GlareshieldLights=False
+PedestalLights=False
+AmbientLights=False
+BeaconLightsNight=True
+LandingLightsNight=True
+LogoLightsNight=True
+NavLightsNight=True
+PanelLightsNight=True
+RecognitionLightsNight=True
+StrobeLightsNight=True
+TaxiLightsNight=False
+WingLightsNight=True
+CabinLightsNight=False
+GlareshieldLightsNight=False
+PedestalLightsNight=False
+AmbientLightsNight=False
+Potentiometer.4=0
+Potentiometer.4=0
+
+[Electrical.0]
+circuit.1=False
+circuit.3=False
+circuit.4=False
+circuit.5=False
+circuit.7=False
+circuit.16=False
+circuit.25=False
+circuit.26=False
+circuit.27=False
+circuit.28=False
+circuit.34=False
+battery.1=True
+alternator.1=True
+
+[AutoPilot.0]
+MasterSwitch=False
+WingLeveler=False
+Nav1Lock=False
+HeadingLock=False
+HeadingValue=0
+AltitudeLock=False
+AltitudeValue=0
+AttitudeHold=False
+AirspeedHold=False
+AirspeedValue=0
+MachHold=False
+MachValue=0
+VerticalSpeedHold=False
+VerticalSpeedValue=0
+RPMHold=False
+RPMValue=0
+GlideslopeHold=False
+ApproachHold=False
+BackCourseHold=False
+YawDamper=False
+ToGa=False
+AutoThrottleArm=False
+GPSdrivesNAV1=True
+IsUsedForLesson=False
+ForceDisplayUI=False
+AutopilotDisengaged=False
+MaxBankIndex=0
+AltitudeSlotIndex=1
+RPMSlotIndex=1
+SpeedSlotIndex=1
+VSSlotIndex=1
+
+[Payload.0]
+PayloadList= 150.0, 150.0,  10.0
+
+[Controls.0]
+SpoilersHandle=000.00
+FlapsHandle=050.00
+LeftFlap=050.00
+RightFlap=050.00
+GearsHandle=000.01
+Gear1=100.00
+Gear2=100.00
+Gear3=100.00
+YokeY=050.00
+YokeX=050.00
+Rudder=050.00
+LeftBrake=100.00
+RightBrake=100.00
+ParkingBrake=100.00
+ElevatorTrim=065.00
+RudderTrimPct=0
+AileronTrimPct=0
+AileronTrimDisabled=False
+ElevatorTrimDisabled=False
+RudderTrimDisabled=False
+SpoilersArmed=False
+AntiSkidActive=False
+
+[SimScheduler]
+SimSpeed=001.00
+SimTime=700.08653877951223876
