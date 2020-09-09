@@ -26,6 +26,7 @@ Compiled mission packages are in the `missionpackages` directory.
 *Under BushtripStLaurent*
   - Single `stlaurent` bushtrip mission package in its own project. This one uses airports for each leg, and works as axpected. You may use it as a framework
   for your own missions.
+  - [first release](https://github.com/geehalel/msfsmissions/raw/master/mission-packages/geehalel-bushtrip-stlaurent-0.1.0.zip)
 
 #### Creating a package in its own project
 - I use in this example the project `BushtripStLaurent`, using `geehalel` as creator. The project will contain only one package, a bushtrip mission package.
