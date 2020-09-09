@@ -1,0 +1,22 @@
+<AssetPackage Name="geehalel-bushtrip-stlaurent" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>MISSION</ContentType>
+		<Title>Saint-Laurent mission package</Title>
+		<Manufacturer/>
+		<Creator>geehalel</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="stlaurent">
+			<Type>Mission</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\stlaurent\</AssetDir>
+			<OutputDir>Missions\geehalel\BushTrips\stlaurent\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>

@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<SimBase.Document Type="MissionFile" version="1,0" id="latuquechalets">
+  <Title>Bush Trip</Title>
+  <Filename>stlaurent.spb</Filename>
+  <WorldBase.Flight>
+    <SimMission.MissionBushTrip id="Bushtrip_StLaurent" InstanceId="{f0727ad5-069f-4c5e-b7f9-881c0848cf59}">
+      <Descr>Saint-Laurent Bush Trip</Descr>
+	  <Legs>
+	    <Leg>
+          <Descr>Roberval to Chicoutimi</Descr>
+          <ImagePath>
+          </ImagePath>
+          <AirportLandingTriggerEnd UniqueRefId="{23474921-97ad-44d6-8696-32bd4fd041ac}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>Welcome to Roberval, Canada. Wind your way southeast along Road 169 and the Saint-Jean Lake southern bank. 
+			  As Road 169 runs on, it will deliver you into the heart of a small city, Chambord.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="CYRJ" />
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>When you leave the city, at the railroad junction, leave Road 169 and follow a small road heading southeast.
+			  This road leads you to the Métabetchouane River.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI1">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI2">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr> Follow its path to northeast and then north, among its successive rapids. You will be back to the Saint-Jean lake bank in the city of Deschiens.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI2">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI3">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>Follow the Saint-Jean Lake bank. Beware you enter in a restricted area (fly under 2000 feet).</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI3">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI4">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>Go on following the Saint-Jean Lake bank, until you catch sight of a great aluminum plant located on your right.
+			  </Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI4">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI5">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>Set your course to it, and go on up to the mouth of the Saguenay river. You fly over the three dams which should power that aluminum plant.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI5">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI6">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>Follow the path of the Saguenay river until you find the next dams located at Jonquiere, the "Chute à Caron" (Caron's Fall).</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI6">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI7">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>Cross the dams site and after a bend on the river, go on up to a road bridge over the river. This is the city of Chicoutimi and you will land
+			  here at the Chicoutimi/Saint-Honoré airport. Simply follow the north direction pointed to by the bridge and you will be on final for runway 36.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI7">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI8">
+                <idRegion>!A</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>Land at Chicoutimi/Saint-Honoré airport, runway 36. </Descr>
+              <ImagePath>images\chicoutimi.png</ImagePath>
+              <ATCWaypointStart id="POI8">
+                <idRegion>!A</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="CYRC" />
+            </SubLeg>
+          </SubLegs>
+        </Leg>
+		<Leg>
+          <Descr>Chicoutimi to Grandes Bergeronnes</Descr>
+          <ImagePath>
+          </ImagePath>
+          <AirportLandingTriggerEnd UniqueRefId="{c863cbb1-956a-4a3c-9545-3be3fbf0bbad}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>Take off from Chicoutimi/Saint-Honoré airport and fly towards south to find the Saguenay River.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="CYRC" />
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!B</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>Follow its path to southeast until you reach another blend of the river. On your right a wide bay (Baie des Ha!Ha!) shows
+			  an ancient arm of the river.  Someone laughing here?</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI1">
+                <idRegion>!B</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI2">
+                <idRegion>!B</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Continuing along the river, you may explore some of the fjords that lead to it. 
+			  Go on until you reach the Saint-Laurent river and the city of Tadoussac on the north bank of the Saguenay river.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI2">
+                <idRegion>!B</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI3">
+                <idRegion>!B</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Tadoussac is well known for its whales watching in speedboat. Why not go to the middle of the saint Laurent river
+			  to try to observe some? </Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI3">
+                <idRegion>!B</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI4">
+                <idRegion>!B</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>Hope you saw some belugas. To land at the Grandes Bergeronnes airfield, fly towards north to the second large river mouth
+			  you can see on the Saint-Laurent river bank. Landing from the west (runway 10) may be tricky.</Descr>
+              <ImagePath>images\grandes-bergeronnes.png</ImagePath>
+              <ATCWaypointStart id="POI4">
+                <idRegion>!B</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="CTH3" />
+            </SubLeg>
+          </SubLegs>
+        </Leg>
+		<Leg>
+          <Descr>Chicoutimi to Charlevoix</Descr>
+          <ImagePath>
+          </ImagePath>
+          <AirportLandingTriggerEnd UniqueRefId="{C71352AB-FEF4-4EEE-92AD-0A7408DF102D}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>Take off from Grandes Bergeronnes airfield and fly towards southwest along the Saint-Laurent river bank while passing again off Tadoussac.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="CTH3" />
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!C</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>In the middle of the river you may see an elongated island, the 'Ile aux lièvres' (hare island). Then there is a 
+			  smaller one, the 'Ile aux fraises' (strawberry island). </Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI1" >
+			    <idRegion>!C</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI2">
+                <idRegion>!C</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>You may choose to fly over land now, just one mile, and reach the next river mouth, the "La Malbaie" river and the city of the same name.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI2" >
+			    <idRegion>!C</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI3">
+                <idRegion>!C</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>That leads you to the Charlevoix airport whose only runway is perpendicular to the Saint-Laurent river path. Prepare your approach
+			  and land at Charlevoix airport.</Descr>
+              <ImagePath>Images\charlevoix.png</ImagePath>
+              <ATCWaypointStart id="POI3">
+                <idRegion>!C</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="CYML" />
+            </SubLeg>
+          </SubLegs>
+        </Leg>
+		<Leg>
+          <Descr>Charlevoix to Pintendre</Descr>
+          <ImagePath>
+          </ImagePath>
+          <AirportLandingTriggerEnd UniqueRefId="{791ed3c2-49c3-401f-b5e3-2fc6a8318e9c}" />
+          <SubLegs>
+            <SubLeg>
+              <Descr>Take off from Charlevoix airport and follow the Saint-Laurent river path towards southwest. The first island you fly over is
+			  the "Ile aux coudres" (hazel island). Then fly towards south to reach the next island.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="CYML" />
+              <ATCWaypointEnd id="POI1">
+                <idRegion>!D</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>After having almost crossed the Saint-Laurent river, you see the end of the next island, the "Ile aux grues" (cranes island). Fly over the
+			  island staying parallel to the Saint-Laurent river south bank. Start climbing 3500 feet.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI1">
+                <idRegion>!D</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI2">
+                <idRegion>!D</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>You fly over a number of smaller islands, and can see the river split into two arms. Between the arms lies the "Ile d'Orléans", a larger island
+			  which announces your arrival in the city of Québec. Fly along the south coast of the island.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI2">
+                <idRegion>!D</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI3">
+                <idRegion>!D</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>Stay over the Saint-Laurent river while you enter in Québec-City, staying above 1500 feet. You may see the "Chateau de Frontenac" just after
+			  the harbor and the marina on your right. Once you reach the (almost) only bridge on the Saint-Laurent river, turn to the south and follow either the Chaudière river 
+			  or the highway 74 on the second bridge.
+			  </Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI3">
+                <idRegion>!D</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI4">
+                <idRegion>!D</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>Here are the Chaudière Falls on your right. Shortly thereafter you cross a railway line that spans the river. Follow that railway to the northeast.
+			  </Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI4">
+                <idRegion>!D</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI5">
+                <idRegion>!D</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+			<SubLeg>
+              <Descr>Then to the east when it splits to the south at the marshalling yard. On the next intersection follow the northern path. You may start to descend and
+			  prepare to turn left when you cross a small river.</Descr>
+              <ImagePath>
+              </ImagePath>
+              <ATCWaypointStart id="POI5">
+                <idRegion>!D</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="POI6">
+                <idRegion>!D</idRegion>
+              </ATCWaypointEnd>
+            </SubLeg>
+            <SubLeg>
+              <Descr>After crossing that river, you may see the Pintendre airfield to your northeast. You may use the road following the river as a turning point 
+			  to align with runway 30. Land there and stop the aircraft. You're done.</Descr>
+              <ImagePath>Images\pintendre.png</ImagePath>
+              <ATCWaypointStart id="POI6">
+                <idRegion>!D</idRegion>
+              </ATCWaypointStart>
+              <ATCWaypointEnd id="CPT9" />
+            </SubLeg>
+          </SubLegs>
+		</Leg>
+	  </Legs>
+	  <Objectives>
+        <Objective UniqueRefId="{3a7c7f78-fb2f-4c8f-9600-841117e99e71}">
+          <Descr>End mission</Descr>
+          <FailureText>TT:MISSIONMESSAGE.FLIGHT.OUTOFFUEL</FailureText>
+        </Objective>
+      </Objectives>
+      <OnFinishedActions>
+        <WorldBase.ObjectReference id="End Of Mission" InstanceId="{777b9bd4-9aea-4a86-a4e6-6041020801e3}" />
+      </OnFinishedActions>
+	</SimMission.MissionBushTrip>
+	<SimMission.AirportCalculator InstanceId="{23474921-97ad-44d6-8696-32bd4fd041ac}">
+      <Descr>Chicoutimi/Saint-Honoré Airport</Descr>
+      <AirportIdent>CYRC</AirportIdent>
+      <Activated>false</Activated>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="LandedOnRunway">
+          <CalculatorFormula>
+            [OnGround]
+            if{
+            [SignedDistanceToClosestRunway] 0 &lt;
+            if{ 1 }
+            els{ [LandedOnRunway] }
+            }
+            els{
+            0
+            }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerLanded">
+          <CalculatorFormula>
+            [LandedOnRunway] [IsInAirportArea] (A:GROUND VELOCITY, Knots) 2 &lt; and and
+            if{
+            [TimerLanded] [dtime] +
+            }
+            els{ 0 }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="RunwayDistanceThreshold">
+          <CalculatorFormula>
+            100
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [RunwayDistanceThreshold] &gt; [OnGround] and [FarTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OutsideTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [RunwayDistanceThreshold] &lt; [SignedDistanceToClosestRunway] 0 &gt; [OnGround] and and [OutsideTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [OutsideTouchDown] [FarTouchDown] not and
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <DeactivateAfterExecution>true</DeactivateAfterExecution>
+          <CalculatorFormula>
+            [TimerLanded] 2 &gt;
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_LandingRest" InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.AirportCalculator>
+	<SimMission.AirportCalculator InstanceId="{c863cbb1-956a-4a3c-9545-3be3fbf0bbad}">
+      <Descr>Grandes Bergeronnes Airfield</Descr>
+      <AirportIdent>CTH3</AirportIdent>
+      <Activated>false</Activated>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="LandedOnRunway">
+          <CalculatorFormula>
+            [OnGround]
+            if{
+            [SignedDistanceToClosestRunway] 0 &lt;
+            if{ 1 }
+            els{ [LandedOnRunway] }
+            }
+            els{
+            0
+            }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerLanded">
+          <CalculatorFormula>
+            [LandedOnRunway] [IsInAirportArea] (A:GROUND VELOCITY, Knots) 2 &lt; and and
+            if{
+            [TimerLanded] [dtime] +
+            }
+            els{ 0 }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="RunwayDistanceThreshold">
+          <CalculatorFormula>
+            100
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [RunwayDistanceThreshold] &gt; [OnGround] and [FarTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OutsideTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [RunwayDistanceThreshold] &lt; [SignedDistanceToClosestRunway] 0 &gt; [OnGround] and and [OutsideTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [OutsideTouchDown] [FarTouchDown] not and
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <DeactivateAfterExecution>true</DeactivateAfterExecution>
+          <CalculatorFormula>
+            [TimerLanded] 2 &gt;
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_LandingRest" InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.AirportCalculator>
+	<SimMission.AirportCalculator InstanceId="{791ed3c2-49c3-401f-b5e3-2fc6a8318e9c}">
+      <Descr>Pintendre Airport</Descr>
+      <AirportIdent>CPT9</AirportIdent>
+      <Activated>false</Activated>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="LandedOnRunway">
+          <CalculatorFormula>
+            [OnGround]
+            if{
+            [SignedDistanceToClosestRunway] 0 &lt;
+            if{ 1 }
+            els{ [LandedOnRunway] }
+            }
+            els{
+            0
+            }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerLanded">
+          <CalculatorFormula>
+            [LandedOnRunway] [IsInAirportArea] (A:GROUND VELOCITY, Knots) 2 &lt; and and
+            if{
+            [TimerLanded] [dtime] +
+            }
+            els{ 0 }
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="RunwayDistanceThreshold">
+          <CalculatorFormula>
+            100
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FarTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [RunwayDistanceThreshold] &gt; [OnGround] and [FarTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OutsideTouchDown">
+          <CalculatorFormula>
+            [SignedDistanceToClosestRunway] [RunwayDistanceThreshold] &lt; [SignedDistanceToClosestRunway] 0 &gt; [OnGround] and and [OutsideTouchDown] or
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [OutsideTouchDown] [FarTouchDown] not and
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <DeactivateAfterExecution>true</DeactivateAfterExecution>
+          <CalculatorFormula>
+            [TimerLanded] 2 &gt;
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_LandingRest" InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.AirportCalculator>
+     <SimMission.Calculator id="CLTR_OutOfFuel" InstanceId="{6d5abfe8-9034-4820-abe1-0c4b2ab151a4}">
+      <Descr>TT:MISSIONMESSAGE.FLIGHT.OUTOFFUEL</Descr>
+      <Activated>true</Activated>
+      <CalculatorFormula>
+        [FuelQuantity]
+      </CalculatorFormula>
+      <CalculatorParameterList>
+        <FormulaParameter NameInFormula="FuelQuantity">
+          <CalculatorFormula>
+            (A:FUEL TOTAL QUANTITY, gallons)
+            (A:UNUSABLE FUEL TOTAL QUANTITY, gallons)
+            -
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="InAir">
+          <CalculatorFormula>
+            (A:PLANE ALT ABOVE GROUND, meter) (A:STATIC CG TO GROUND, meter) + 10 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="OnGround">
+          <CalculatorFormula>
+            (A:SIM ON GROUND, Boolean) 0 &gt;
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="FlyingOutOfFuel">
+          <CalculatorFormula>
+            [FuelQuantity] 0.001 &lt;
+            [OnGround] not
+            and
+            [FlyingOutOfFuel]
+            or
+          </CalculatorFormula>
+        </FormulaParameter>
+        <FormulaParameter NameInFormula="TimerOutOfFuel">
+          <CalculatorFormula>
+            [FlyingOutOfFuel]
+            [OnGround]
+            and
+            if{
+            [TimerOutOfFuel]
+            [dtime]
+            +
+            }
+            els{
+            0
+            }
+          </CalculatorFormula>
+        </FormulaParameter>
+      </CalculatorParameterList>
+      <CalculatorActions>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [TimerOutOfFuel]  15 &gt;
+            [FlyingOutOfFuel]
+            [OnGround]
+            (A:GROUND VELOCITY, Knots) 5 &lt;
+            and
+            and
+            or
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="ACT_FailGoal" InstanceId="{41b20995-226a-468d-8d29-712974839b40}" />
+          </Actions>
+        </CalculatorAction>
+        <CalculatorAction>
+          <CalculatorFormula>
+            [InAir]
+          </CalculatorFormula>
+          <Actions>
+            <WorldBase.ObjectReference id="FlowEvent_DisableFuel" InstanceId="{D1646D1F-CFB2-4D83-A490-AC05FD7C6188}" />
+          </Actions>
+        </CalculatorAction>
+      </CalculatorActions>
+    </SimMission.Calculator>
+	<SimMission.Goal InstanceId="{3a7c7f78-fb2f-4c8f-9600-841117e99e71}">
+      <Descr>End of mission</Descr>
+      <Activated>false</Activated>
+    </SimMission.Goal>
+    <SimMission.GoalResolutionAction InstanceId="{777b9bd4-9aea-4a86-a4e6-6041020801e3}">
+      <Descr>Resolve Goal End of mission</Descr>
+      <Goals>
+        <WorldBase.ObjectReference id="Mission END" InstanceId="{3a7c7f78-fb2f-4c8f-9600-841117e99e71}" />
+      </Goals>
+    </SimMission.GoalResolutionAction>
+    <SimMission.GoalResolutionAction InstanceId="{41b20995-226a-468d-8d29-712974839b40}">
+      <Descr>Failure</Descr>
+      <GoalResolution>failed</GoalResolution>
+      <Goals>
+        <WorldBase.ObjectReference id="Mission END" InstanceId="{3a7c7f78-fb2f-4c8f-9600-841117e99e71}" />
+      </Goals>
+    </SimMission.GoalResolutionAction>
+	<SimMission.TimerTriggerFlowStateAction InstanceId="{50B730D9-18C0-41F6-8B7D-8FD0A17BDD57}">
+      <Descr>TimerStart</Descr>
+      <DefaultActivated>true</DefaultActivated>
+      <OnScreenTimer>true</OnScreenTimer>
+      <UseFirstFlightState>true</UseFirstFlightState>
+      <Actions>
+        <WorldBase.ObjectReference id="WiseAFSSet" InstanceId="{43071EAB-D106-41CC-88D6-B113CDAE289B}" />
+      </Actions>
+    </SimMission.TimerTriggerFlowStateAction>
+    <SimMission.FlowStateAction InstanceId="{7C4FE0D9-0507-471A-86E0-14014AC56E40}">
+      <FlowStateName>INTRO</FlowStateName>
+      <StayInStateAfterEndTeleportActions>false</StayInStateAfterEndTeleportActions>
+      <IsFirstStateInTimeline>true</IsFirstStateInTimeline>
+      <FromSpawn>true</FromSpawn>
+      <TeleportFlowEvents>
+        <FlowEvent id="SHOW_MISSION_STARTUP" />
+        <FlowEvent id="PAUSE_SIM" />
+      </TeleportFlowEvents>
+      <StartFlowEvents>
+        <FlowEvent id="UNACTIVATE_PUSHBACK" />
+        <FlowEvent id="UNPAUSE_SIM" />
+        <FlowEvent id="PANEL_COPILOT_FORCE_DISABLED" />
+        <FlowEvent id="PANEL_CHECKLIST_FORCE_DISABLED" />
+        <FlowEvent id="PANEL_FUEL_PAYLOAD_FORCE_DISABLED" />
+        <FlowEvent id="PANEL_TELEPORT_FORCE_DISABLED" />
+        <FlowEvent id="PANEL_OBJECTIVES_FORCE_DISABLED" />
+      </StartFlowEvents>
+      <TeleportActions>
+        <WorldBase.ObjectReference id="WWiseRTCState_RTC_CONDITIONAL" InstanceId="{D6980D36-9C6D-4DD1-AFC6-3CB0C3D775B3}" />
+        <WorldBase.ObjectReference id="RTC_Ground_Airport_Aircraft_Intro" InstanceId="{306B2AE4-06BA-48C3-93A0-BD5569E6EF5B}" />
+      </TeleportActions>
+      <EndActions>
+        <WorldBase.ObjectReference id="WWiseRTCState_NON_RTC" InstanceId="{C3271B26-2A26-4830-A0DA-BB6AF9020A87}" />
+      </EndActions>
+      <NextState id="BUSHTRIP" InstanceId="{23552DE7-1761-4299-93D1-012CFA6CF761}" />
+    </SimMission.FlowStateAction>
+    <SimMission.FlowStateAction InstanceId="{23552DE7-1761-4299-93D1-012CFA6CF761}">
+      <FlowStateName>BUSHTRIP</FlowStateName>
+      <AutoStateSwitchEnabled>false</AutoStateSwitchEnabled>
+      <StartFlowEvents>
+        <FlowEvent id="PANEL_GAME_NAVLOG_SHOW" />
+        <FlowEvent id="PANEL_VFR_MAP_SHOW" />
+      </StartFlowEvents>
+      <NextState id="LANDING_REST" InstanceId="{81E4FFFD-1D53-40C5-A13E-932466A4B998}" />
+    </SimMission.FlowStateAction>
+    <SimMission.FlowStateAction InstanceId="{81E4FFFD-1D53-40C5-A13E-932466A4B998}">
+      <FlowStateName>LANDING_REST</FlowStateName>
+      <AutoStateSwitchEnabled>false</AutoStateSwitchEnabled>
+      <StartActions>
+        <WorldBase.ObjectReference id="RTC_Ground_Aircraft_Outro" InstanceId="{5DAADB19-3BA3-4235-BCC0-39CD6F4CD4D9}" />
+      </StartActions>
+      <NextState id="BUSHTRIP" InstanceId="{23552DE7-1761-4299-93D1-012CFA6CF761}" />
+    </SimMission.FlowStateAction>
+	<SimMission.FlowEventAction InstanceId="{F4FEBADA-8867-43E7-832D-947FAFCD8187}">
+      <Descr>FlowEvent_Landing_Rest</Descr>
+      <FlowEvents>
+        <FlowEvent id="BUSHTRIP_LEG_COMPLETED" />
+      </FlowEvents>
+    </SimMission.FlowEventAction>
+    <SimMission.FlowEventAction InstanceId="{D1646D1F-CFB2-4D83-A490-AC05FD7C6188}">
+      <Descr>FlowEvent_DisableFuel</Descr>
+      <FlowEvents>
+        <FlowEvent id="PANEL_FUEL_PAYLOAD_FORCE_DISABLED" />
+      </FlowEvents>
+    </SimMission.FlowEventAction>
+    <SimMission.EventTriggerAction id="ACT_NotifOutOfRunway" InstanceId="{952743E5-F838-4F51-A1A0-07E8DCD44019}">
+      <Descr>Landed outside of runway</Descr>
+      <Name>EVENT_TRIGGER_NOT_ON_RUNWAY</Name>
+    </SimMission.EventTriggerAction>
+    <SimMission.FlowStateWise InstanceId="{43071EAB-D106-41CC-88D6-B113CDAE289B}">
+      <Descr>WiseAFSSet</Descr>
+      <GroupName>ACTIVITIES_FLOW_STATE</GroupName>
+      <ElementName>BUSHTRIP</ElementName>
+    </SimMission.FlowStateWise>
+    <SimMission.FlowStateWise InstanceId="{C3271B26-2A26-4830-A0DA-BB6AF9020A87}">
+      <Descr>WWiseRTCState_NON_RTC</Descr>
+      <GroupName>GAME_RTC_STATE</GroupName>
+      <ElementName>NON_RTC</ElementName>
+    </SimMission.FlowStateWise>
+    <SimMission.FlowStateWise InstanceId="{D6980D36-9C6D-4DD1-AFC6-3CB0C3D775B3}">
+      <Descr>WWiseRTCState_RTC</Descr>
+      <GroupName>GAME_RTC_STATE</GroupName>
+      <ConditionalElementName>
+        <ReversePolishCondition>(A:PLANE ALT ABOVE GROUND, meter) (A:STATIC CG TO GROUND, meter) - 0 &lt; </ReversePolishCondition>
+        <ElementName>RTC</ElementName>
+      </ConditionalElementName>
+      <ConditionalElementName>
+        <ReversePolishCondition>(A:PLANE ALT ABOVE GROUND, meter) (A:STATIC CG TO GROUND, meter) - 0 &gt; </ReversePolishCondition>
+        <ElementName>RTC_IN_FLIGHT</ElementName>
+      </ConditionalElementName>
+    </SimMission.FlowStateWise>
+  </WorldBase.Flight>
+</SimBase.Document>

@@ -1,0 +1,504 @@
+
+[Main]
+MissionType=BushTrip
+MissionLocation=Québec
+Title=Roberval to Pintendre
+Description=Saint-Laurent River 
+AppVersion=10.0.282174
+FlightVersion=1
+
+[Briefing]
+BriefingText="Des rives du Lac Saint-Jean, aux fjords de la rivière Saguenay, vous rejoindrez le Saint-Laurent. Ce fleuve abrite parfois des baleines que l'on observe aux abords de Tadoussac.<br\/><br\/>Vous piloterez un Robin DR400, un avion offrant une large visibilité.<br\/><br\/>Une aide vous sera fournie sous la forme d'un bouton d'aide sur la carte VFR, mais cette aide désactive les succès liés à la partie en question."
+
+[Options]
+Sound=True
+Pause=True
+Moonlight=True
+Save=True
+SaveOriginalFlightPlan=True
+TextDisplayPage=0
+SlewDisplayPage=1
+AxisIndicator=Off
+Titles=False
+
+[Sim.0]
+Sim=DR400 Asobo
+Pilot=Default
+Copilot=Default
+TailNumber=
+AirlineCallSign=
+FlightNumber=
+AppendHeavy=False
+SimFile=runway.FLT
+
+[ResourcePath]
+Path=stlaurent
+
+[ObjectFile]
+File=stlaurent
+
+[Atc_Menu]
+Visible=False
+
+[Weather]
+UseWeatherFile=False
+UseLiveWeather=True
+WeatherPresetFile=
+WeatherCanBeLive=False
+CloudmapPosOverride=False
+CloudmapInitialPosX=0
+CloudmapInitialPosY=0
+FixedClouds=False
+
+[Assistance]
+Preset=ASSISTANCE_PRESET_BUSH_TRIP
+EventTriggersFileCount=1
+EventTriggersFile.0=BushTripEventTriggers
+
+[Departure]
+ICAO=CYRJ
+RunwayNumber=16
+RunwayDesignator=NONE
+
+[Loading]
+ImageName=./images/Loading.jpg
+Tips0=TT:LOADING.TIPS.BUSH_TRIPS.1
+Tips1=TT:LOADING.TIPS.BUSH_TRIPS.2
+Tips2=TT:LOADING.TIPS.BUSH_TRIPS.3
+Tips3=TT:LOADING.TIPS.BUSH_TRIPS.4
+Tips4=TT:LOADING.TIPS.BUSH_TRIPS.5
+
+[Panels]
+Panel.On=True
+HUD.On=False
+
+[Window.1]
+Order=255
+Active=True
+Undocked=False
+Maximized=True
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+
+[ATC_AgentManager]
+NumberofAgents=0
+
+[ATC_Aircraft.0]
+ActiveFlightPlan=True
+RequestedFlightPlan=False
+AcState=ACSTATE_REQUEST_TAXI_CLEARANCE_OUT_VFR_ATIS
+ActiveVFRAirport=CYRJ
+Waypoint.0=, CYRJ, , Roberval, A, N48° 31.20', W72° 15.96', +000573.00, , , , , , NONE, 0, 0, -1
+Waypoint.1=!A, POI1, , Chambord, U, N48° 25.27', W72° 2.90', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.2=!A, POI2, , Métabetchouane River, U, N48° 22.22', W72° 0.14', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.3=!A, POI3, , Desbiens, U, N48° 25.04', W71° 57.38', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.4=!A, POI4, , Alma restricted Area, U, N48° 27.09', W71° 50.69', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.5=!A, POI5, , Alma aluminum plant, U, N48° 35.41', W71° 45.68', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.6=!A, POI6, , Saguenay river, U, N48° 34.57', W71° 38.00', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.7=!A, POI7, , Jonquiere, U, N48° 26.72', W71° 14.95', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.8=!A, POI8, , Chicoutimi, U, N48° 26.03', W71° 4.36', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.9=, CYRC, , Chicoutimi/St-Honoré, A, N48° 31.23', W71° 3.09', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.10=!B, POI1, , Saguenay River, U, N48° 27.15', W71° 0.14', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.11=!B, POI2, , Baie des Ha!Ha!, U, N48° 21.98', W70° 42.85', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.12=!B, POI3, , Tadoussac, U, N48° 8.26', W69° 43.49', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.13=!B, POI4, , Saint-Laurent River, U, N48° 8.04', W69° 33.27', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.14=, CTH3, , Grandes-Bergeronnes, A, N48° 13.93', W69° 32.57', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.15=!C, POI1, , Baie des Rochers, U, N47° 57.27', W69° 46.61', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.16=!C, POI2, , Port-au-persil, U, N47° 45.80', W69° 53.73', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.17=!C, POI3, , La Malbaie, U, N47° 40.87', W70° 10.63', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.18=, CYML, , Charlevoix, A, N47° 35.86', W70° 13.43', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.19=!D, POI1, , Ile aux Coudres, U, N47° 24.51', W70° 22.74', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.20=!D, POI2, , Ile aux Grues, U, N47° 5.78', W70° 31.72', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.21=!D, POI3, , Ile d'Orléans, U, N46° 51.72', W70° 59.08', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.22=!D, POI4, , Québec Bridge, U, N46° 44.62', W71° 17.24', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.23=!D, POI5, , Chaudière River, U, N46° 42.41', W71° 16.50', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.24=!D, POI6, , Carrier Junction, U, N46° 43.86', W71° 5.87', +000600.00, , , , , , NONE, 0, 0, -1
+Waypoint.25=, CPT9, , Aéroport de Pintendre, A, N46° 45.49', W71° 6.60', +000250.00, , , , , , NONE, 0, 0, -1
+NumberofWaypoints=26
+ClearanceFlags=107
+CtCur=CLEARANCE_NONE
+WaypointNext=1
+AltCleared=-1
+HdgAssigned=-1
+SquawkAssigned=4608
+LandingSequence=LANDING_NONE
+DepartureRequest=DEPARTURE_VFR_REQUEST_DEPART_SOUTH
+ParkingRequest=PARKING_NAME_NONE
+ParkingTypeRequest=PARKING_TYPE_NONE
+PatternLeg=PATTERN_LEG_NONE
+ApproachIndex=-1
+ApproachTransitionIndex=-1
+ApproachRequestIndex=-1
+ApproachTransitionRequestIndex=-1
+RunwayIndex=0
+RunwayRequestIndex=-1
+ParkingIndex=1
+FlightFollowing=FLIGHT_FOLLOWING_NO
+AirspaceTransition=AIRSPACE_TRANSITION_NONE
+BVAirspaceTransition=BV_TYPE_NONE
+BVAirspaceTransitionReq=BV_TYPE_NONE
+TakeoffSequence=TAKEOFF_SEQUENCE_NONE
+LandingSequenceNumber=-1
+TaxiRouteCurrent=-1
+CruisingAltitude=1500
+RequestedCruisingAltitude=-1
+ExpectedAltitude=-1
+AircraftSignature=1,0
+
+[ATC_ActiveFlightPlan.0]
+title=CYRJ to CPT9
+description=Roberval, Pintendre
+type=VFR
+routetype=0
+cruising_altitude=1500
+departure_id=CYRJ, N48° 31.19', W72° 15.96', +000586.00
+departure_position=
+destination_id=CPT9, N46° 45.45', W71° 6.55', +000270.00
+departure_name=Roberval
+destination_name=Pintendre
+Waypoint.0=, CYRJ, , Roberval, A, N48° 31.20', W72° 15.96', +000573.00, , , , , , NONE, 0, 0, -1
+Waypoint.1=!A, POI1, , Chambord, U, N48° 25.27', W72° 2.90', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.2=!A, POI2, , Métabetchouane River, U, N48° 22.22', W72° 0.14', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.3=!A, POI3, , Desbiens, U, N48° 25.04', W71° 57.38', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.4=!A, POI4, , Alma restricted Area, U, N48° 27.09', W71° 50.69', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.5=!A, POI5, , Alma aluminum plant, U, N48° 35.41', W71° 45.68', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.6=!A, POI6, , Saguenay river, U, N48° 34.57', W71° 38.00', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.7=!A, POI7, , Jonquiere, U, N48° 26.72', W71° 14.95', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.8=!A, POI8, , Chicoutimi, U, N48° 26.03', W71° 4.36', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.9=, CYRC, , Chicoutimi/St-Honoré, A, N48° 31.23', W71° 3.09', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.10=!B, POI1, , Saguenay River, U, N48° 27.15', W71° 0.14', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.11=!B, POI2, , Baie des Ha!Ha!, U, N48° 21.98', W70° 42.85', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.12=!B, POI3, , Tadoussac, U, N48° 8.26', W69° 43.49', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.13=!B, POI4, , Saint-Laurent River, U, N48° 8.04', W69° 33.27', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.14=, CTH3, , Grandes-Bergeronnes, A, N48° 13.93', W69° 32.57', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.15=!C, POI1, , Baie des Rochers, U, N47° 57.27', W69° 46.61', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.16=!C, POI2, , Port-au-persil, U, N47° 45.80', W69° 53.73', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.17=!C, POI3, , La Malbaie, U, N47° 40.87', W70° 10.63', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.18=, CYML, , Charlevoix, A, N47° 35.86', W70° 13.43', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.19=!D, POI1, , Ile aux Coudres, U, N47° 24.51', W70° 22.74', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.20=!D, POI2, , Ile aux Grues, U, N47° 5.78', W70° 31.72', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.21=!D, POI3, , Ile d'Orléans, U, N46° 51.72', W70° 59.08', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.22=!D, POI4, , Québec Bridge, U, N46° 44.62', W71° 17.24', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.23=!D, POI5, , Chaudière River, U, N46° 42.41', W71° 16.50', +002000.00, , , , , , NONE, 0, 0, -1
+Waypoint.24=!D, POI6, , Carrier Junction, U, N46° 43.86', W71° 5.87', +000600.00, , , , , , NONE, 0, 0, -1
+Waypoint.25=, CPT9, , Aéroport de Pintendre, A, N46° 45.49', W71° 6.60', +000250.00, , , , , , NONE, 0, 0, -1
+
+[ATC_AircraftManager]
+NumberofAircraft=1
+
+[ATC_MessageSystem]
+FrequencyNodes=0
+
+[GPS_Engine]
+Filename=C:\USERS\GEEHALE\APPDATA\LOCAL\PACKAGES\MICROSOFT.FLIGHTSIMULATOR_8WEKYB3D8BBWE\LOCALSTATE\MISSIONS\CUSTOM\CUSTOMFLIGHT\CUSTOMFLIGHT
+position=N48° 31.50', W72° 16.31', +000589.89
+Time=52189
+TimeWP=86345
+ArriveTime=8407
+CountWP=28
+NextWP=1
+PlaneStarted=True
+WpInfo0=54, 0, 174, 0, 0, 14.5, 0.0, 0.0
+WpInfo1=115, 0, 609, 0, 0, 0.0, 0.6, 0.0
+WpInfo2=114, 0, 609, 0, 0, 0.0, 0.2, 0.0
+WpInfo3=115, 0, 609, 0, 0, 0.0, 0.2, 0.0
+WpInfo4=115, 0, 609, 0, 0, 0.0, 0.3, 0.0
+WpInfo5=113, 0, 609, 0, 0, 0.0, 0.5, 0.0
+WpInfo6=115, 0, 609, 0, 0, 0.0, 0.3, 0.0
+WpInfo7=115, 0, 609, 0, 0, 0.0, 1.0, 0.0
+WpInfo8=114, 0, 609, 0, 0, 0.0, 0.4, 0.0
+WpInfo9=112, 0, 609, 0, 0, 0.0, 0.3, 0.0
+WpInfo10=116, 0, 609, 0, 0, 0.0, 0.3, 0.0
+WpInfo11=116, 0, 609, 0, 0, 0.0, 0.7, 0.0
+WpInfo12=118, 0, 609, 0, 0, 0.0, 1.4, 0.0
+WpInfo13=118, 0, 609, 0, 0, 0.0, 1.0, 0.0
+WpInfo14=117, 0, 609, 0, 0, 0.0, 0.4, 0.0
+WpInfo15=116, 0, 609, 0, 0, 0.0, 0.4, 0.0
+WpInfo16=110, 0, 609, 0, 0, 0.0, 1.2, 0.0
+WpInfo17=113, 0, 609, 0, 0, 0.0, 0.3, 0.0
+WpInfo18=113, 0, 609, 0, 0, 0.0, 0.5, 0.0
+WpInfo19=114, 0, 609, 0, 0, 0.0, 0.7, 0.0
+WpInfo20=116, 0, 609, 0, 0, 0.0, 0.3, 0.0
+WpInfo21=116, 0, 609, 0, 0, 0.0, 0.8, 0.0
+WpInfo22=113, 0, 609, 0, 0, 0.0, 1.2, 0.0
+WpInfo23=112, 0, 609, 0, 0, 0.0, 1.4, 0.0
+WpInfo24=111, 0, 609, 0, 0, 0.0, 0.9, 0.0
+WpInfo25=113, 0, 609, 0, 0, 0.0, 0.1, 0.0
+WpInfo26=116, 0, 182, 0, 0, 0.0, 0.4, 0.0
+WpInfo27=101, 0, 76, 0, 0, 0.0, 0.1, 0.0
+CountFP=1
+FP0=2924747f,cc9b4ec7,00000000,00000000,00000000,00000000,00000000,00000000
+
+[DateTimeSeason]
+Season=Summer
+Year=2020
+Day=167
+Hours=9
+Minutes=29
+Seconds=49
+UseZuluTime=False
+
+[SimVars.0]
+Latitude=N48° 31' 30.22"
+Longitude=W72° 16' 18.73"
+Altitude=+000589.89
+Pitch=-2.6328829651231209219
+Bank=0.40682801236964105662
+Heading=142.89592962091890627
+PVelBodyAxis=0
+BVelBodyAxis=0
+HVelBodyAxis=0
+XVelBodyAxis=0
+YVelBodyAxis=0
+ZVelBodyAxis=0
+SimOnGround=True
+OnPlatformHeight=-9999999999
+
+[Avionics.0]
+Comm1Active=122.200
+Comm1Standby=124.850
+Comm2Active=124.850
+Comm2Standby=124.850
+Comm3Active=124.850
+Comm3Standby=124.850
+Nav1Active=110.50
+Nav1Standby=113.90
+OBS1=360
+Nav2Active=110.50
+Nav2Standby=113.90
+OBS2=360
+Transponder=1200
+TransponderState=4
+ADFActive=890
+ADF2Active=890
+DMESelected=1
+ComTransmit=1
+ComReceiveBoth=False
+Com1Receive=True
+Com2Receive=False
+Com3Receive=False
+AudioNav1Listen=False
+AudioNav2Listen=False
+AudioMarkerListen=True
+AudioDmeListen=False
+AudioAdfListen=False
+AudioAdf2Listen=False
+AvionicsSwitch=True
+
+[Slew.0]
+Active=False
+
+[Freeze.0]
+Location=False
+Altitude=False
+Attitude=False
+
+[Engine Parameters.1.0]
+ThrottleLeverPct=0
+PropellerLeverPct=1
+MixtureLeverPct=1
+Pct Engine RPM=0.23921733622558352672
+MaxReachedEngineRPM=2195.1577077586812266
+Pct N1=-1
+Pct N2=-1
+LeftMagneto=True
+RightMagneto=True
+GeneratorSwitch=True
+CowlFlapPct=0
+FuelPumpSwitch=True
+FuelPumpSwitch_EX1=1
+FuelValveOpen=True
+CarbHeat/DeiceSwitch=False
+EngineMasterSwitch=True
+GlowPlugTemperaturePct=1
+IgnitionSwitch=0
+StarterSwitch=False
+EGT_DegR=745.14606151949885771
+ITT_DegR=0
+
+[Propeller.1.0]
+prop_beta=0.33161255787892263136
+prop_max_rpm_percent=0.23921733622558352672
+
+[Fuel.0]
+TankSelector=All
+TankSelector1=All
+Center=49.997470855712890625
+LeftMain=0
+RightMain=0
+LeftAux=0
+RightAux=0
+LeftTip=0
+RightTip=0
+Center 2=0
+Center 3=0
+External 1=0
+External 2=0
+
+[Systems.0]
+BatterySwitch=True
+StructuralDeiceSwitch=False
+StructuralDeiceSwitch_EX1=0
+PropDeiceSwitch=False
+Autobrakes=0
+StandbyVacuum=False
+PropSync=False
+AutoFeatherSwitch=False
+FlightDirector=False
+PanelLights=False
+LaunchBarSwitch=False
+LaunchBarState=0
+TailhookHandle=False
+TailhookState=0
+FoldingWingsHandle=False
+FoldingWingsState=0, 0
+ExternalPowerSwitch=False
+AuxPowerUnitSwitch=False
+
+[Gauges.0]
+KollsmanSetting=29.921342849731445312
+
+[BleedAir.0]
+BleedAirSource=0
+EngineAirBleed.1=True
+EngineAirBleed.2=True
+EngineAirBleed.3=True
+EngineAirBleed.4=True
+APUAirBleed=True
+
+[LocalVars.0]
+XMLVAR_LeverThrottleHidden1=0
+XMLVAR_LeverMixtureHidden1=0
+XMLVAR_LeverFlapsHidden=0
+XMLVAR_YokeHidden1=0
+XMLVAR_YokeHidden2=0
+XMLVAR_ELT_STATE=1
+XMLVAR_ELT_TEST_TIME=0
+XMLVAR_ELT_ACTIVATION_TIME=0
+XMLVAR_Starter_State=0
+XMLVAR_Starter_State_IsDown=0
+XMLVAR_CabinHeatSwitch1Status=0
+XMLVAR_CabinHeatSwitch2Status=0
+XMLVAR_WarningsAttenuated=0
+XMLVAR_DayNightSwitch=0
+XMLVAR_DayNightSwitch_Timer=0
+XMLVAR_IsDeiceAirFrame=0
+XMLVAR_IsDeiceAirFrame2=0
+HUD_AP_SELECTED_SPEED=0
+HUD_AP_SELECTED_ALTITUDE=0
+FLIGHTPLAN_USE_DECEL_WAYPOINT=0
+MAP_SHOW_TEMPORARY_FLIGHT_PLAN=0
+MAP_FLIGHTPLAN_HIGHLIT_WAYPOINT=0
+
+[Switches.0]
+PitotHeat=False
+PitotHeat_EX1=0
+WindshieldDeice=0
+BeaconLights=True
+LandingLights=True
+LogoLights=True
+NavLights=True
+PanelLights=False
+RecognitionLights=True
+StrobeLights=True
+TaxiLights=False
+WingLights=True
+CabinLights=False
+GlareshieldLights=False
+PedestalLights=False
+AmbientLights=False
+BeaconLightsNight=True
+LandingLightsNight=True
+LogoLightsNight=True
+NavLightsNight=True
+PanelLightsNight=True
+RecognitionLightsNight=True
+StrobeLightsNight=True
+TaxiLightsNight=False
+WingLightsNight=True
+CabinLightsNight=True
+GlareshieldLightsNight=False
+PedestalLightsNight=False
+AmbientLightsNight=False
+Potentiometer.7=0
+Potentiometer.7=0
+Potentiometer.7=0
+
+[Electrical.0]
+circuit.2=False
+circuit.8=False
+circuit.9=False
+circuit.10=False
+circuit.11=False
+circuit.16=False
+circuit.27=False
+circuit.32=False
+battery.1=True
+alternator.1=True
+
+[AutoPilot.0]
+MasterSwitch=False
+WingLeveler=False
+Nav1Lock=False
+HeadingLock=False
+HeadingValue=0
+AltitudeLock=False
+AltitudeValue=0
+AttitudeHold=False
+AirspeedHold=False
+AirspeedValue=0
+MachHold=False
+MachValue=0
+VerticalSpeedHold=False
+VerticalSpeedValue=0
+RPMHold=False
+RPMValue=0
+GlideslopeHold=False
+ApproachHold=False
+BackCourseHold=False
+YawDamper=False
+ToGa=False
+AutoThrottleArm=False
+GPSdrivesNAV1=False
+IsUsedForLesson=False
+ForceDisplayUI=False
+AutopilotDisengaged=False
+MaxBankIndex=0
+AltitudeSlotIndex=1
+RPMSlotIndex=1
+SpeedSlotIndex=1
+VSSlotIndex=1
+
+[Payload.0]
+PayloadList= 170.0, 170.0,   0.0
+
+[Controls.0]
+SpoilersHandle=000.00
+FlapsHandle=050.00
+LeftFlap=025.00
+RightFlap=025.00
+GearsHandle=000.00
+Gear1=100.00
+Gear2=100.00
+Gear3=100.00
+YokeY=050.00
+YokeX=050.00
+Rudder=050.00
+LeftBrake=100.00
+RightBrake=100.00
+ParkingBrake=100.00
+ElevatorTrim=052.78
+RudderTrimPct=0
+AileronTrimPct=0
+AileronTrimDisabled=False
+ElevatorTrimDisabled=False
+RudderTrimDisabled=False
+SpoilersArmed=False
+AntiSkidActive=False
+
+[SimScheduler]
+SimSpeed=001.00
+SimTime=964.84740781081859495
+
+[Multiplayer]
+Status=0
